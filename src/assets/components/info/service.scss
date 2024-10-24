@@ -1,0 +1,36 @@
+.services-wrapper {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+  & .charts-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(32, 32, 141);
+  }
+    & .service-img {
+        display: block;
+        margin: auto;
+        width: 130px;
+        height: auto;
+        padding: 20px;
+      }
+      & .service-info-block {
+        & .blocks {
+            & .service-title {
+                color: rgb(32, 32, 141);
+                font-weight: 600;
+                font-size: 16px;
+            }
+            & .service-val {
+                text-align: center;
+                font-weight: bold;
+                font-size: 30px;
+                color: rgb(32, 32, 141);
+            }
+        }
+      }
+
+}

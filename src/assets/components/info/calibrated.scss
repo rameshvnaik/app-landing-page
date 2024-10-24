@@ -1,0 +1,43 @@
+.calibarted-manage-wrapper {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    width: 450px;
+    height: 250px;
+    & .charts-title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 22px;
+      color: rgb(32, 32, 141);
+          }
+    & .calibarted-bars-container {
+        & .calibarted-bar-row {
+          margin-bottom: 15px;
+         &  .calibarted-management-name {
+            font-size: 14px;
+            color: #1c4280;
+            text-align: left;
+          }
+          & .calibarted-bar-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex: 2;
+            position: relative;
+            width: 400px;
+            .calibarted-bar {
+              height: 20px;
+              border-radius: 5px;
+              background-color: #4993d1;
+              transition: width 0.3s ease;
+            }
+            
+            .calibarted-value {
+              font-size: 14px;
+              font-weight: bold;
+              color: #1c4280;
+            }
+          }
+        }
+      }
+}

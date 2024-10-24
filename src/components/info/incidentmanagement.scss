@@ -1,0 +1,42 @@
+.incident-manage-wrapper {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    & .charts-title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 22px;
+      color: rgb(32, 32, 141);
+          }
+    & .bars-container {
+        & .bar-row {
+          margin-bottom: 15px;
+         &  .incident-management-name {
+            font-size: 14px;
+            color: #1c4280;
+            text-align: left;
+          }
+          & .bar-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex: 2;
+            position: relative;
+            .bar {
+              height: 30px;
+              border-radius: 5px;
+              background-color: #4993d1;
+              transition: width 0.3s ease;
+            }
+            
+            .value {
+              font-size: 14px;
+              font-weight: bold;
+              color: #1c4280;
+            }
+          }
+        }
+      }
+}

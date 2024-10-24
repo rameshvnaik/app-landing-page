@@ -1,0 +1,22 @@
+.donutchart-wrapper {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    & .charts-title {
+text-align: center;
+font-weight: bold;
+font-size: 22px;
+margin-bottom: 0;
+color: rgb(32, 32, 141);
+    }
+
+} 
+.total-assets-chart-wrapper {
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

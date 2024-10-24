@@ -1,0 +1,82 @@
+.columnchart-wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  border: 1px solid #fff;
+  padding: 15px 20px;
+  & .columnchart-title {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #1a4a8c;
+  }
+}
+
+.columnchart-filter-block {
+  display: flex;
+  justify-content: space-between;
+  & .chart-button-block {
+    display: flex;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+
+    & .chart-btn {
+      flex: 1;
+      padding: 10px 20px;
+      border: none;
+      background-color: transparent;
+      color: #1a4a8c;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:not(:last-child) {
+        border-right: 1px solid #dcdcdc;
+      }
+
+      &:hover {
+        background-color: #e6e6e6;
+      }
+      &.active {
+        background-color: #1a4a8c;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.record-clear-btn-wrap {
+    display: flex;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    height: 35px;
+    & .rc-btn {
+        flex: 1;
+      padding: 7px 20px;
+      border: none;
+      background-color: transparent;
+      color: #1a4a8c;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:not(:last-child) {
+        border-right: 1px solid #dcdcdc;
+      }
+
+      &:hover {
+        background-color: #e6e6e6;
+      }
+      &.active {
+        background-color: #1a4a8c;
+        color: #fff;
+      }
+    }
+}

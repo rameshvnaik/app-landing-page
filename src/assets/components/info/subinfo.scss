@@ -1,0 +1,18 @@
+.info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px;
+    flex: 1;
+    & .title {
+        font-size: 20px;
+        color: rgb(45, 45, 150);
+        font-weight: bold;
+    }
+    
+}
+.service-info-block {
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
